@@ -86,6 +86,7 @@
 			   </includes>
 		   </resource>
 	   </resources>
+		<finalName>WaterMeter-12f882367c454c4eb95ad0b7c47068a3-CompactNB-1.0.0</finalName>
 		
 		<plugins>
 			<!-- 编码需要使用JDK1.8版本 -->
@@ -111,9 +112,10 @@
 					<instructions>
 						<Bundle-RequiredExecutionEnvironment>J2SE-1.5</Bundle-RequiredExecutionEnvironment>
 						<Bundle-Activator></Bundle-Activator>
+						<Bundle-Name>WaterMeter-12f882367c454c4eb95ad0b7c47068a3-CompactNB</Bundle-Name>
 						<Service-Component>OSGI-INF/*</Service-Component>
 						<!-- 请修改为你的编解码插件的名字，命名规范：设备类型-厂商ID-设备型号，例如：WaterMeter-Test-NBIoTDevice -->
-						<Bundle-SymbolicName>WaterMeter-Sensus-CompactNB</Bundle-SymbolicName>
+						<Bundle-SymbolicName>WaterMeter-12f882367c454c4eb95ad0b7c47068a3-CompactNB</Bundle-SymbolicName>
 						<Export-Package></Export-Package>
 						<Import-Package>
 							org.slf4j,

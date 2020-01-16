@@ -1,0 +1,22 @@
+{
+    "specVersion":"1.0",
+    "fileName":"iot",
+    "version":"1.0.0",
+    "deviceType":"WaterMeter",
+    "manufacturerName":"Sensus",
+    "model":"CompactNB",
+    "description":"NB-IOT encode and decode",
+    "platform":"linux",
+    "packageType":"CIGPlugin",
+    "date":"2018-03-20 17:04:59",
+    "ignoreList":[],
+    "bundles":[
+    {
+        "bundleName": "WaterMeter-12f882367c454c4eb95ad0b7c47068a3-CompactNB",
+        "bundleVersion": "1.0.0",
+        "priority":5,
+        "fileName": "WaterMeter-12f882367c454c4eb95ad0b7c47068a3-CompactNB-1.0.0.jar",
+        "bundleDesc":"Sensus WaterMeter CompactNB NB-IOT encode and decode",
+        "versionDesc":"Initial version"
+    }]
+}
