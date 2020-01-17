@@ -34,7 +34,7 @@ public class CompactNBProtocolAdapter implements IProtocolAdapter {
 
         ArrayNode data = mapper.createArrayNode();
         ObjectNode watermeter = mapper.createObjectNode();
-        watermeter.put("serviceId", "WaterMeter");
+        watermeter.put("serviceId", "RawData");
         ObjectNode meterData = mapper.createObjectNode();
         meterData.put("source", Utilty.parseByte2HexStr(bytes));
         watermeter.set("serviceData", meterData);
